@@ -1,0 +1,13 @@
+name: PlayerList
+description: PlayerList
+main: com.connorlinfoot.playerlist.Main
+version: 1.0
+commands:
+  list:
+    aliases: [staff,who,l,plist,playerlist,stafflist,oplist]
+    description: List online donators and staff
+permissions:
+  playerlist.donor:
+    default: false
+  playerlist.staff:
+    default: op
